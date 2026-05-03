@@ -1,25 +1,14 @@
-# DEMO
+# RAG Chatbot using LangChain, FAISS & OpenAI
 
-Good Morning!!
+## 🔍 Overview
+This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that answers questions based on custom documents. It reduces hallucinations by grounding responses with retrieved context.
 
-Sample small project to execute in Github
+## 🏗 Architecture
+User Query → Embeddings → FAISS Similarity Search → Relevant Chunks → LLM → Answer
 
-git clone https://github.com/NirmalaSubramani2001/Demo1.git CODE1
-
-CD COD1
-
-git branch
-
-git checkout feature/demorepo
-
-code .
-
-git add .
-
-git commit -m "Updated Hello.py file"
-
-git push origin feature/demorepo
-
-
-
-
+## 🛠 Tech Stack
+- Python
+- LangChain
+- OpenAI
+- FAISS
+- FastAPI
